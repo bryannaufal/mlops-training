@@ -15,7 +15,7 @@ import pandas as pd
 from evidently import Report, Dataset
 from evidently.presets import DataDriftPreset
 
-reference = pd.read_csv("data/train.csv").drop(columns=["target"])
+reference = pd.read_csv("data/train_v2.csv").drop(columns=["target"])
 current = pd.read_csv("data/production_simulasi.csv").drop(columns=["target"])
 
 reference_dataset = Dataset.from_pandas(reference)

@@ -15,7 +15,7 @@ import pandas as pd
 import great_expectations as gx
 import great_expectations.expectations as gxe
 
-DATA_PATH = "data/train.csv"
+DATA_PATH = "data/train_v2.csv"
 
 def main():
     df = pd.read_csv(DATA_PATH)
