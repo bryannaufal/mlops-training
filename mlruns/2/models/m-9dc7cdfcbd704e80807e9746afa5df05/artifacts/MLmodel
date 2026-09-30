@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Bryan Naufal/Documents/BNI/bootcamp/mlops/mlruns/2/models/m-9dc7cdfcbd704e80807e9746afa5df05/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-9dc7cdfcbd704e80807e9746afa5df05
+model_size_bytes: 4203970
+model_uuid: m-9dc7cdfcbd704e80807e9746afa5df05
+prompts: null
+run_id: 42c6d58c6f0a4573afcddb819ee2865a
+utc_time_created: '2026-09-30 02:08:39.694470'
